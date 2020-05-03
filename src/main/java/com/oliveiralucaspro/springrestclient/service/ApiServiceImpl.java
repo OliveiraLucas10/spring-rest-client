@@ -13,7 +13,7 @@ import com.oliveiralucaspro.api.domain.UserData;
 @Service
 public class ApiServiceImpl implements ApiService {
 
-    private RestTemplate restTemplate = new RestTemplate();;
+    private final RestTemplate restTemplate = new RestTemplate();;
 
     private final String api_url;
 
